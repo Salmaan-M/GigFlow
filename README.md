@@ -24,7 +24,7 @@
 | --- | --- | --- |
 | React + Vite | Node.js | MongoDB Atlas |
 | Redux Toolkit | Express | Socket.io |
-| Tailwind CSS | JWT (HttpOnly) | Framer Motion |
+| Tailwind CSS | JWT (HttpOnly) |
 
 ---
 
