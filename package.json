@@ -1,0 +1,12 @@
+{
+  "name": "gigflow",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install && npm ci --prefix client && npm ci --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "dev": "npm run dev --prefix server",
+    "deploy": "npm run install-all && npm run build && npm start"
+  }
+}

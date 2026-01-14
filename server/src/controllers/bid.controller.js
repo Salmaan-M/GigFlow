@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import Bid from "../models/Bid.js";
 import Gig from "../models/Gig.js";
-import { io } from "../server.js";
+import { io } from "../index.js";
 
 // @route POST /api/bids
 // @desc  Submit a bid on a gig

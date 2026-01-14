@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-outfit: 'Outfit', sans-serif;
+  --color-primary: 17 17 17;
+  --color-secondary: 107 114 128;
+  --color-accent: 37 99 235;
+  --color-bg-light: 250 250 250;
+  --color-surface: 255 255 255;
+  --color-border: 229 231 235;
+}
+
+@layer base {
+  body {
+    @apply font-outfit antialiased bg-bg-light text-primary;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-black text-white px-6 py-2.5 rounded-full font-medium transition-all duration-300 shadow-lg active:translate-y-0;
+  }
+
+  .btn-primary:hover {
+    @apply bg-gray-800 -translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply bg-surface text-black border border-gray-200 px-6 py-2.5 rounded-full font-medium transition-all duration-300 shadow-md active:translate-y-0;
+  }
+
+  .btn-secondary:hover {
+    @apply border-black -translate-y-0.5;
+  }
+
+  .card {
+    @apply bg-surface border border-gray-100 rounded-2xl p-6 shadow-sm transition-all duration-300;
+  }
+
+  .card:hover {
+    @apply shadow-xl -translate-y-1;
+  }
+}
+
+.checkered-bg {
+  background-color: #ffffff;
+  background-image: radial-gradient(#000000 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+  opacity: 0.4;
+}
