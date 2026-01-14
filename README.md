@@ -1,4 +1,4 @@
-# 🚀 GigFlow – Mini Freelance Marketplace
+# 🚀 GigFlow – Mini Freelance Marketplace built using MERN
 
 **GigFlow** is a modern, full-stack freelance platform designed for speed and reliability. It features a robust bidding system with **atomic hiring logic**, real-time updates via **Socket.io**, and a secure authentication flow using **HttpOnly cookies**.
 
