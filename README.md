@@ -87,7 +87,6 @@ To prevent multiple freelancers from being hired for the same gig simultaneously
 3. **Update Gig:** Marks the gig as "Hired" and assigns the Freelancer ID.
 4. **Auto-Reject:** In the same operation, all other pending bids for that gig are set to "Rejected".
 5. **Commit:** If any step fails, the entire process rolls back.
-
 ---
 
 
