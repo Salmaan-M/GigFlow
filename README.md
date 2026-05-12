@@ -14,7 +14,7 @@
 * **⚡ Real-Time Notifications:** Instant "Hired" or "Rejected" alerts powered by **Socket.io**.
 * **🔐 Secure Auth:** Identity management via **JWT** stored in secure, **HttpOnly cookies** to mitigate XSS attacks.
 * **📊 Bid Management:** Freelancers can browse gigs and place bids; clients can review and hire in one click.
-* **🎨 Responsive Design:** Built with **Tailwind CSS** for a seamless experience across desktop.
+* **🎨 Responsive Design:** Built with **Tailwind CSS** for a seamless experience across desktop and mobile devices.
 
 ---
 
